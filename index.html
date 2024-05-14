@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Aim Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Aim Game</h1>
+<label for="targetScore">Target Score:</label>
+<input type="number" id="targetScore" value="10">
+<label for="cubeColor">Cube Color:</label>
+<input type="color" id="cubeColor" value="#ff0000">
+<label for="level">Level:</label>
+<select id="level">
+  <option value="easy">Easy</option>
+  <option value="medium">Medium</option>
+  <option value="hard">Hard</option>
+</select>
+<button id="startGame">Start Game</button>
+<div id="gameArea"></div>
+<p id="score">Score: 0</p>
+<p id="timer">Time: 0s</p>
+
+<script src="script.js"></script>
+</body>
+</html>
